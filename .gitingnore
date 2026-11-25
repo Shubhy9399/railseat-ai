@@ -1,0 +1,42 @@
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+build/
+coverage/
+*.tsbuildinfo
+
+# Python and AI/ML
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# Infrastructure
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup starter code
+mobile/example/
+
+# Local AI tooling
+.claude/
